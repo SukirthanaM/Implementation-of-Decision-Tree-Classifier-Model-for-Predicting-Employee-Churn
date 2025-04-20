@@ -8,10 +8,17 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Load the data from a CSV file.
+2. Displays the first and last 5 rows.
+3. Checks for missing values
+4. Shows how many employees left (1) vs stayed (0).
+5. Encodes the categorical "salary" column (e.g., low = 0, medium = 1, high = 2).
+6. x: independent variables (features)
+7. y: dependent variable (target - whether the employee left)
+8. Splits data into training (80%) and testing (20%).
+9. Trains a Decision Tree using entropy (information gain) as the criterion.
+10. Predicts on the test set.
+11. Calculates the accuracy of the model
 
 ## Program:
 ```
